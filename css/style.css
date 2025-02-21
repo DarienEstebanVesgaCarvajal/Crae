@@ -57,7 +57,6 @@ nav{
     font-size: 1.66vw;
     padding: 1vw;
 }
-
 nav a{
     text-decoration: none;
 }
@@ -69,5 +68,52 @@ nav a ul{
 
  .change-mode img{
     width: 7vw;
+    height: auto;
+}
+
+            /*** Main ***/
+
+main{
+    display: flex;
+    color: var(--color-all-white);
+    margin-top: 10vw;
+    justify-content: space-between;
+}
+
+.left{
+    display: block;
+    margin-inline-start: 7vw;
+}
+.left img{
+    width: 49.4vw;
+    height: auto;
+}
+.left .text{
+    font-family: "RobotoCondensed-Regular";
+}
+.left .text span{
+    font-size: 4vw;
+}
+.left .text p{
+    font-size: 1.81vw;
+}
+
+.rigth{
+    display: block;
+    justify-content: center;
+}
+.rigth img{
+    width: 34vw;
+    height: auto;
+}
+.rigth button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 1.7vw;
+}
+.rigth button img{
+    width: 2vw;
     height: auto;
 }
