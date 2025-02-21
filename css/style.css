@@ -5,3 +5,66 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+            /*** Body ***/
+
+body{
+    background: var(--color-font-black);
+}
+
+            /*** Header ***/
+
+header{
+    padding: 0.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-right: 2vw;
+    box-shadow: 0 1vw 2vw rgba(255, 255, 255, 0.1);
+}
+
+            /*** Header First Part ***/
+
+.AQUA{
+    background-color: var(--color-all-white);
+    border-radius: 4vw;
+    padding: 1.7vw 4vw 1.7vw 7vw;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 2.7vw;
+    gap: 1vw;
+    margin: 1vw 0 1vw -4.7vw;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+            /*** Nav ***/
+
+nav{
+    background: var(--color-font-black);
+    display: flex;
+    gap: 7vw;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 1.66vw;
+    padding: 1vw;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav a ul{
+    color: var(--color-all-white);
+}
+
+            /*** Header Second Part ***/
+
+ .change-mode img{
+    width: 7vw;
+    height: auto;
+}
